@@ -1,7 +1,9 @@
 wireless-tools-android
 ======================
 
-Allows to build [wireless-tools](http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html) binaries for Android ICS devices.
+Slightly modified [wireless-tools-android for ICS](https://github.com/nvamelichev/wireless-tools-android) to support Marshmallow devices.
+
+Allows to build [wireless-tools](http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html) binaries for Android 6 devices.
 
 Based off [wireless-tools-29](http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz).
 
@@ -9,12 +11,12 @@ Prerequisities
 ==============
 Development machine:
 * Linux machine, preferably running Ubuntu. (I tested on Ubuntu 10.04 LTS). Probably should work on other Linuxes too.
-* Android NDK r6b or higher
+* Android NDK r11c or higher
 * Corresponding Android SDK
 * bash 3.0 or higher
 
 Mobile device (I tested on HTC Sensation):
-* Android 4 (ICS) or higher. Might work on lower versions if you experiment with *config.sh* and have corresponding SDK and NDK.
+* Android 6 (Marshmallow) or higher. Might work on lower versions if you experiment with *config.sh* and have corresponding SDK and NDK.
 * Rooted!
 * Superuser (*su*)
 * BusyBox in */system/xbin*. Use BusyBox Installer app to install it. (Search for *:pname:com.jrummy.busybox.installer*
